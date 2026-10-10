@@ -1,0 +1,7 @@
+Timestamp UTC: 2026-10-10T19:55:00.789415400Z
+java.version: 25.0.1
+java.vm.name: OpenJDK 64-Bit Server VM
+os.name: Windows 11
+os.arch: amd64
+Processors visible: 12
+Warmups per size/scenario: 10; measured trials: 21
