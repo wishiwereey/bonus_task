@@ -21,6 +21,11 @@ Hash Table
 - Search: best O(1), worst O(n).
 - Deletion: best O(1), worst O(n).
 
+## Why Performance May Differ in Practice
+BST speed depends on tree shape. Sorted insertion creates a long chain and makes operations slower.
+Hash-table speed depends on collisions. Many keys in one bucket make search and deletion slower. Resizing also takes extra time.
+Memory allocation, Java warmup, and garbage collection can affect both structures.
+
 ## Conclusion
 Hash Table was faster for search and deletion in these tests. BST insertion was faster for the two smaller random datasets. 
 Sorted insertion made the BST much slower. Performance depends on tree shape, hash collisions, and resizing.
